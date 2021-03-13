@@ -1,4 +1,6 @@
 Introduction
+
+
 Berlin and Hamburg are two of Germany's largest cities and each year many people move from one city to the other.
 
 In this analysis I will explore how similar or dissimilar their neighbourhoods are based on Foursquare location data.
@@ -10,6 +12,10 @@ Specifically, if you move from Hamburg to Berlin which neighbourhood should you 
 The analysis will show that for several neighbourhoods we will not find a similar counterpart in the other city. Two clusters, however, have a distinct venue mix and are represented in both cities.
 
 Data
+
+
+
+
 For this analysis I will be using foursquare data to analyze different neighbourhoods in two major German cities: Hamburg and Berlin.
 
 One concern is that data for Germany may not be as extensive as it would be for the U.S. and the analysis may therefore not be as comprehensive.
@@ -27,6 +33,9 @@ The neighbourhoods will be generated algorithmically with a fixed radius. Approx
 The number of venues and their category in every neighbourhood will be obtained using the Foursquare API.
 
 Methodology
+
+
+
 Generate neighbourhood dataset
 To generate the dataset of the neighbourhood locations, the city centers of Hamburg and Berlin were used as starting points. For Hamburg the Außenalster and for Berlin the Brandenburg Gate was used as the center address. From these addresses the geocoordinates were derived using the geocode function from Nominatum.
 
